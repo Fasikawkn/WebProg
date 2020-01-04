@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	Templates
+
 	dbconn, err := sql.Open("postgres", "postgres://postgres:user1@localhost/restaurantdb?sslmode=disable")
 
 	if err != nil {
